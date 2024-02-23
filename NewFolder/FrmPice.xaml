@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp1.NewFolder.FrmPice"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1.NewFolder"
+        mc:Ignorable="d"
+        Title="Pice"  Height="300" Width="300">
+    <Grid>
+        <Label x:Name="Dodaj" Content="DODAJ PICE" HorizontalAlignment="Center" Margin="0,31,0,0" VerticalAlignment="Top" Height="47" Width="132" FontSize="22"/>
+        <TextBox x:Name="txtPice" HorizontalAlignment="Center" Height="41" Margin="0,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" FontSize="22"/>
+        <Button x:Name="btnSacuvaj" Content="SACUVAJ" Click="btnSacuvaj_Click"  HorizontalAlignment="Left" Height="36" Margin="35,192,0,0" VerticalAlignment="Top" Width="80"/>
+        <Button x:Name="btnOtkazi" Content="OTKAZI" Click="btnOtkazi_Click" HorizontalAlignment="Left" Height="36" Margin="185,192,0,0" VerticalAlignment="Top" Width="80"/>
+
+
+    </Grid>
+</Window>
